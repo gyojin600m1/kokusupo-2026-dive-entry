@@ -53,11 +53,14 @@ def main():
         return
     (ROOT / "tools" / "index.html").replace(ROOT / "index.html")
 
-    subprocess.run(["git", "add", "-A"], cwd=ROOT, capture_output=True)
+    # 結果に関係するファイルだけを入れる（無関係な変更を巻き込まない）
+    subprocess.run(["git", "add", "index.html", "tools/results.json", "watch/state.json"],
+                   cwd=ROOT, capture_output=True)
     msg = f"結果を反映（競技 {'・'.join(map(str, new))}）"
     subprocess.run(["git", "-c", "user.name=gyojin600m1", "-c",
                     "user.email=gyojin600m1@gmail.com", "commit", "-q", "-m", msg],
                    cwd=ROOT, capture_output=True)
+    changed = subprocess.run(["git", "diff", "--cached", "--quiet"], cwd=ROOT).returncode != 0
     p = subprocess.run(["git", "push", "-q", "origin", "main"], cwd=ROOT, capture_output=True, text=True)
     if p.returncode != 0:
         log("push失敗: " + (p.stdout + p.stderr).strip().replace("\n", " / "))
