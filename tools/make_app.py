@@ -5,12 +5,44 @@ from pathlib import Path
 
 built = json.load(open("dive_built.json"))
 kana = json.load(open("kana.json"))
+try:
+    RES = json.load(open("results.json"))
+except FileNotFoundError:
+    RES = {"results": {}, "done": []}
 
 PREFS = ["北海道","青森県","岩手県","宮城県","秋田県","山形県","福島県","茨城県","栃木県","群馬県",
          "埼玉県","千葉県","東京都","神奈川県","新潟県","富山県","石川県","福井県","山梨県","長野県",
          "岐阜県","静岡県","愛知県","三重県","滋賀県","京都府","大阪府","兵庫県","奈良県","和歌山県",
          "鳥取県","島根県","岡山県","広島県","山口県","徳島県","香川県","愛媛県","高知県","福岡県",
          "佐賀県","長崎県","熊本県","大分県","宮崎県","鹿児島県","沖縄県"]
+
+# ---- 公式の順位一覧を entries / people に流し込む ----
+RANK = {}
+for no, blk in RES["results"].items():
+    for r in blk["rows"]:
+        RANK[(int(no), r["name"].replace(" ", ""), r["pref"])] = r
+for e in built["entries"]:
+    r = RANK.get((e["ev"], e["name"].replace(" ", ""), e["pref"]))
+    if r:
+        e["r"] = {"rank": r["rank"], "pts": r["points"], "st": r["status"]}
+        if r["status"]:
+            e["wd"] = True
+for ev in built["events"]:
+    blk = RES["results"].get(str(ev["no"]))
+    if blk:
+        ev["done"] = True
+        if blk["start"] and not ev.get("start"):
+            ev["start"] = blk["start"]
+        ev["wd"] = sum(1 for r in blk["rows"] if r["status"])
+bykey = {}
+for e in built["entries"]:
+    bykey.setdefault((e["name"].replace(" ", ""), e["pref"]), {})[e["ev"]] = e
+for p in built["people"]:
+    for ref in p["evs"]:
+        src = bykey.get((p["name"].replace(" ", ""), p["pref"]), {}).get(ref["ev"])
+        if src and "r" in src:
+            ref["r"] = src["r"]
+            ref["wd"] = src["wd"]
 
 people = built["people"]
 have = {p["pref"] for p in people}
@@ -26,6 +58,7 @@ data = {
         "women": sum(1 for p in people if p["gender"] == "女子"),
         "prefs": len(have),
         "events": len(built["events"]),
+        "done": len(RES["done"]),
     },
     "days": [
         {"day": 1, "date": "2026-09-10", "label": "9月10日（木）"},
@@ -145,6 +178,17 @@ input:focus{border-color:var(--accent);box-shadow:0 0 0 3px #00c4ff2e}
 .row.wd .rnm{color:#8e9cb8;text-decoration:line-through}
 .row.wd .o{color:#8e9cb8}
 .row .wdtag{margin-left:auto;font-size:10.5px;font-weight:800;color:#ffb9c9;background:#5a1f31;border:1px solid #8c3a58;border-radius:999px;padding:3px 8px}
+/* 順位・得点（結果が出た競技） */
+.ev .ord.p1{color:#ffe89a}.ev .ord.p2{color:#e6eefa}.ev .ord.p3{color:#f0c396}.ev .ord.win{color:#7ff0bd}
+.row .o.rk{color:#eaf3ff}
+.row .o.rk.p1{background:linear-gradient(150deg,#ffe89a,#e0a93a);color:#3a2a00;border-color:#ffd766}
+.row .o.rk.p2{background:linear-gradient(150deg,#eaf0f8,#a9b7c9);color:#25303f;border-color:#dbe4f0}
+.row .o.rk.p3{background:linear-gradient(150deg,#f0c396,#b9773c);color:#3a2208;border-color:#e8b183}
+.row .o.rk.win{background:#123a2c;border-color:#2e7d59;color:#7ff0bd}
+.row .o.wdo{color:var(--muted)}
+.row .pts{margin-left:auto;text-align:right;font-variant-numeric:tabular-nums;font-weight:800;font-size:13px;color:#eaf3ff;white-space:nowrap}
+.row .pts b{display:block;font-size:10px;font-weight:800;color:#7ff0bd}
+.race .rc .fin{color:#7ff0bd;font-weight:800}
 .empty{padding:28px 10px;text-align:center;color:var(--muted)}
 
 details.box{margin-top:20px;border:1px solid var(--line);border-radius:14px;background:#131f3b;overflow:hidden}
@@ -319,12 +363,19 @@ const gMark = g => g === '男子' ? '🔵' : '🔴';
 const isKago = a => a.pref === '鹿児島県';
 const evName = e => e.event;
 const dayOf = e => e.day + '日目';
+const medal = r => r === 1 ? ' p1' : r === 2 ? ' p2' : r === 3 ? ' p3' : r <= 8 ? ' win' : '';
 const evLine = (ref) => {
   const e = EV.get(ref.ev);
-  return `<div class="ev${ref.wd ? ' wd' : ''}">
+  const r = ref.r;
+  let tail;
+  if (r && r.st) tail = `<span class="wdtag">${safe(r.st)}</span>`;
+  else if (r) tail = `<span class="ord${medal(r.rank)}">${r.rank}位　${r.pts.toFixed(2)}</span>`;
+  else if (ref.wd) tail = '<span class="wdtag">棄権</span>';
+  else tail = `<span class="ord">飛順 ${ref.order}</span>`;
+  return `<div class="ev${(r && r.st) || (ref.wd && !r) ? ' wd' : ''}">
     <span class="ename">${safe(evName(e))}</span>
     <span class="day">${dayOf(e)}${e.start ? ' ' + safe(e.start) : ''}</span>
-    ${ref.wd ? '<span class="wdtag">棄権</span>' : `<span class="ord">飛順 ${ref.order}</span>`}
+    ${tail}
   </div>`;
 };
 
@@ -383,24 +434,41 @@ const PREF_LIST = Object.keys(PK);
 const PREF_ORDER = p => { const i = PREF_LIST.indexOf(p); return i < 0 ? 99 : i; };
 
 /* ---------- 日程ビュー ---------- */
-const entriesOf = no => D.entries.filter(e => e.ev === no).sort((a,b) => a.order - b.order);
+const entriesOf = no => D.entries.filter(e => e.ev === no).sort((a,b) => {
+  const ra = a.r && a.r.rank, rb = b.r && b.r.rank;
+  if (ra && rb) return ra - rb;
+  if (ra) return -1;
+  if (rb) return 1;
+  if (a.r && a.r.st && !(b.r && b.r.st)) return 1;
+  if (b.r && b.r.st && !(a.r && a.r.st)) return -1;
+  return a.order - b.order;
+});
 function renderSchedule(){
   document.getElementById('sched').innerHTML = D.days.map(d => {
     const races = D.events.filter(e => e.day === d.day);
     return `<div class="day-h"><span class="dn">${d.day}日目</span>${safe(d.label)}</div>` +
       races.map(e => {
-        const rows = entriesOf(e.no).map(r => `
-          <div class="row${r.pref === '鹿児島県' ? ' kago' : ''}${r.wd ? ' wd' : ''}">
-            <span class="o">${r.order}</span>
+        const rows = entriesOf(e.no).map(r => {
+          const res = r.r;
+          const badge = res && res.rank ? `<span class="o rk${medal(res.rank)}">${res.rank}</span>`
+                      : res && res.st ? '<span class="o wdo">ー</span>'
+                      : `<span class="o">${r.order}</span>`;
+          const right = res && res.rank
+              ? `<span class="pts">${res.pts.toFixed(2)}${res.rank <= 8 ? '<b>入賞</b>' : ''}</span>`
+              : res && res.st ? `<span class="wdtag">${safe(res.st)}</span>`
+              : r.wd ? '<span class="wdtag">棄権</span>' : '';
+          return `<div class="row${r.pref === '鹿児島県' ? ' kago' : ''}${(res && res.st) || (r.wd && !res) ? ' wd' : ''}">
+            ${badge}
             <div><div class="rnm">${r.pref === '鹿児島県' ? '🔥 ' : ''}${safe(r.name)}</div>
-              <div class="rp">${safe(r.pref)}${r.grade ? ' · ' + safe(r.grade) : ''}</div></div>
-            ${r.wd ? '<span class="wdtag">棄権</span>' : ''}
-          </div>`).join('');
+              <div class="rp">${safe(r.pref)}${r.grade ? ' · ' + safe(r.grade) : ''}${res && res.rank ? ' · 飛順' + r.order : ''}</div></div>
+            ${right}
+          </div>`;
+        }).join('');
         return `<details class="race ${gCls(e.gender)}">
           <summary>
             ${e.start ? `<span class="rt">${safe(e.start)}</span>` : ''}
             <span class="rn">${gMark(e.gender)} ${safe(e.cat)}${safe(e.gender)} ${safe(e.event)}</span>
-            <span class="rc">${e.n}名${e.wd ? '（棄権' + e.wd + '）' : ''}</span>
+            <span class="rc">${e.n}名${e.wd ? '（棄権' + e.wd + '）' : ''}${e.done ? ' <b class="fin">結果</b>' : ''}</span>
           </summary>
           <div class="rows">${rows}</div>
         </details>`;

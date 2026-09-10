@@ -1,0 +1,2212 @@
+{
+ "events": [
+  {
+   "no": 1,
+   "day": 1,
+   "date": "2026-09-10",
+   "dow": "木",
+   "cat": "少年",
+   "gender": "女子",
+   "event": "高飛込",
+   "start": "10:00",
+   "n": 13,
+   "wd": 0
+  },
+  {
+   "no": 2,
+   "day": 1,
+   "date": "2026-09-10",
+   "dow": "木",
+   "cat": "少年",
+   "gender": "男子",
+   "event": "飛板飛込",
+   "start": "12:30",
+   "n": 14,
+   "wd": 2
+  },
+  {
+   "no": 3,
+   "day": 1,
+   "date": "2026-09-10",
+   "dow": "木",
+   "cat": "成年",
+   "gender": "女子",
+   "event": "高飛込",
+   "start": "15:00",
+   "n": 10,
+   "wd": 0
+  },
+  {
+   "no": 4,
+   "day": 2,
+   "date": "2026-09-11",
+   "dow": "金",
+   "cat": "少年",
+   "gender": "女子",
+   "event": "飛板飛込",
+   "start": null,
+   "n": 13,
+   "wd": 0
+  },
+  {
+   "no": 5,
+   "day": 2,
+   "date": "2026-09-11",
+   "dow": "金",
+   "cat": "少年",
+   "gender": "男子",
+   "event": "高飛込",
+   "start": null,
+   "n": 14,
+   "wd": 0
+  },
+  {
+   "no": 6,
+   "day": 2,
+   "date": "2026-09-11",
+   "dow": "金",
+   "cat": "成年",
+   "gender": "男子",
+   "event": "飛板飛込",
+   "start": null,
+   "n": 17,
+   "wd": 0
+  },
+  {
+   "no": 7,
+   "day": 3,
+   "date": "2026-09-12",
+   "dow": "土",
+   "cat": "成年",
+   "gender": "女子",
+   "event": "飛板飛込",
+   "start": null,
+   "n": 12,
+   "wd": 0
+  },
+  {
+   "no": 8,
+   "day": 3,
+   "date": "2026-09-12",
+   "dow": "土",
+   "cat": "成年",
+   "gender": "男子",
+   "event": "高飛込",
+   "start": null,
+   "n": 15,
+   "wd": 0
+  }
+ ],
+ "entries": [
+  {
+   "ev": 1,
+   "order": 1,
+   "name": "荒木 花音",
+   "pref": "茨城県",
+   "grade": "高3",
+   "wd": false
+  },
+  {
+   "ev": 1,
+   "order": 2,
+   "name": "鈴木 静玖",
+   "pref": "千葉県",
+   "grade": "高3",
+   "wd": false
+  },
+  {
+   "ev": 1,
+   "order": 3,
+   "name": "杉本 絢菜",
+   "pref": "山形県",
+   "grade": "高1",
+   "wd": false
+  },
+  {
+   "ev": 1,
+   "order": 4,
+   "name": "千葉 優奈",
+   "pref": "福島県",
+   "grade": "高1",
+   "wd": false
+  },
+  {
+   "ev": 1,
+   "order": 5,
+   "name": "山口 真菜",
+   "pref": "奈良県",
+   "grade": "高1",
+   "wd": false
+  },
+  {
+   "ev": 1,
+   "order": 6,
+   "name": "植田 恵麻",
+   "pref": "香川県",
+   "grade": "中3",
+   "wd": false
+  },
+  {
+   "ev": 1,
+   "order": 7,
+   "name": "野坂 律季",
+   "pref": "鳥取県",
+   "grade": "中3",
+   "wd": false
+  },
+  {
+   "ev": 1,
+   "order": 8,
+   "name": "山本 彩華",
+   "pref": "広島県",
+   "grade": "中3",
+   "wd": false
+  },
+  {
+   "ev": 1,
+   "order": 9,
+   "name": "豊田 宙未",
+   "pref": "埼玉県",
+   "grade": "高2",
+   "wd": false
+  },
+  {
+   "ev": 1,
+   "order": 10,
+   "name": "山田 比歩未",
+   "pref": "東京都",
+   "grade": "高1",
+   "wd": false
+  },
+  {
+   "ev": 1,
+   "order": 11,
+   "name": "長岡 凜",
+   "pref": "群馬県",
+   "grade": "高3",
+   "wd": false
+  },
+  {
+   "ev": 1,
+   "order": 12,
+   "name": "八木 星輝",
+   "pref": "神奈川県",
+   "grade": "高2",
+   "wd": false
+  },
+  {
+   "ev": 1,
+   "order": 13,
+   "name": "井上 優奈",
+   "pref": "高知県",
+   "grade": "高1",
+   "wd": false
+  },
+  {
+   "ev": 2,
+   "order": 1,
+   "name": "佐藤 海志",
+   "pref": "長野県",
+   "grade": "高1",
+   "wd": false
+  },
+  {
+   "ev": 2,
+   "order": 2,
+   "name": "後藤 大輝",
+   "pref": "京都府",
+   "grade": "高3",
+   "wd": false
+  },
+  {
+   "ev": 2,
+   "order": 3,
+   "name": "久保 彪",
+   "pref": "鹿児島県",
+   "grade": "高3",
+   "wd": false
+  },
+  {
+   "ev": 2,
+   "order": 4,
+   "name": "中山 一颯",
+   "pref": "石川県",
+   "grade": "高1",
+   "wd": false
+  },
+  {
+   "ev": 2,
+   "order": 5,
+   "name": "二階堂 律",
+   "pref": "高知県",
+   "grade": "高1",
+   "wd": true
+  },
+  {
+   "ev": 2,
+   "order": 6,
+   "name": "和田 颯仁",
+   "pref": "和歌山県",
+   "grade": "中3",
+   "wd": false
+  },
+  {
+   "ev": 2,
+   "order": 7,
+   "name": "金箱 琉海",
+   "pref": "愛知県",
+   "grade": "高2",
+   "wd": false
+  },
+  {
+   "ev": 2,
+   "order": 8,
+   "name": "廣冨 諒",
+   "pref": "島根県",
+   "grade": "高2",
+   "wd": false
+  },
+  {
+   "ev": 2,
+   "order": 9,
+   "name": "伴 和真",
+   "pref": "岡山県",
+   "grade": "高3",
+   "wd": false
+  },
+  {
+   "ev": 2,
+   "order": 10,
+   "name": "猿田 煌大",
+   "pref": "神奈川県",
+   "grade": "高3",
+   "wd": false
+  },
+  {
+   "ev": 2,
+   "order": 11,
+   "name": "古戎 徠人",
+   "pref": "広島県",
+   "grade": "中3",
+   "wd": false
+  },
+  {
+   "ev": 2,
+   "order": 12,
+   "name": "北村 応吏",
+   "pref": "佐賀県",
+   "grade": "高1",
+   "wd": false
+  },
+  {
+   "ev": 2,
+   "order": 13,
+   "name": "石沢 遥斗",
+   "pref": "新潟県",
+   "grade": "高3",
+   "wd": false
+  },
+  {
+   "ev": 2,
+   "order": 14,
+   "name": "茶木 琉聖",
+   "pref": "大分県",
+   "grade": "高1",
+   "wd": true
+  },
+  {
+   "ev": 3,
+   "order": 1,
+   "name": "跡邊 あずき",
+   "pref": "福岡県",
+   "grade": "大1",
+   "wd": false
+  },
+  {
+   "ev": 3,
+   "order": 2,
+   "name": "近藤 花菜",
+   "pref": "群馬県",
+   "grade": null,
+   "wd": false
+  },
+  {
+   "ev": 3,
+   "order": 3,
+   "name": "青山 由唯加",
+   "pref": "静岡県",
+   "grade": "大4",
+   "wd": false
+  },
+  {
+   "ev": 3,
+   "order": 4,
+   "name": "森淵 茉莉愛",
+   "pref": "広島県",
+   "grade": null,
+   "wd": false
+  },
+  {
+   "ev": 3,
+   "order": 5,
+   "name": "坂田 丹寧",
+   "pref": "茨城県",
+   "grade": "大2",
+   "wd": false
+  },
+  {
+   "ev": 3,
+   "order": 6,
+   "name": "西沢 明歩",
+   "pref": "福島県",
+   "grade": null,
+   "wd": false
+  },
+  {
+   "ev": 3,
+   "order": 7,
+   "name": "乗松 飛羽",
+   "pref": "愛媛県",
+   "grade": "大3",
+   "wd": false
+  },
+  {
+   "ev": 3,
+   "order": 8,
+   "name": "山崎 佳蓮",
+   "pref": "高知県",
+   "grade": "大4",
+   "wd": false
+  },
+  {
+   "ev": 3,
+   "order": 9,
+   "name": "金戸 凜",
+   "pref": "東京都",
+   "grade": null,
+   "wd": false
+  },
+  {
+   "ev": 3,
+   "order": 10,
+   "name": "荒井 祭里",
+   "pref": "佐賀県",
+   "grade": null,
+   "wd": false
+  },
+  {
+   "ev": 4,
+   "order": 1,
+   "name": "杉本 絢菜",
+   "pref": "山形県",
+   "grade": "高1",
+   "wd": false
+  },
+  {
+   "ev": 4,
+   "order": 2,
+   "name": "千葉 優奈",
+   "pref": "福島県",
+   "grade": "高1",
+   "wd": false
+  },
+  {
+   "ev": 4,
+   "order": 3,
+   "name": "豊田 宙未",
+   "pref": "埼玉県",
+   "grade": "高2",
+   "wd": false
+  },
+  {
+   "ev": 4,
+   "order": 4,
+   "name": "山口 真菜",
+   "pref": "奈良県",
+   "grade": "高1",
+   "wd": false
+  },
+  {
+   "ev": 4,
+   "order": 5,
+   "name": "荒木 花音",
+   "pref": "茨城県",
+   "grade": "高3",
+   "wd": false
+  },
+  {
+   "ev": 4,
+   "order": 6,
+   "name": "山本 彩華",
+   "pref": "広島県",
+   "grade": "中3",
+   "wd": false
+  },
+  {
+   "ev": 4,
+   "order": 7,
+   "name": "鈴木 静玖",
+   "pref": "千葉県",
+   "grade": "高3",
+   "wd": false
+  },
+  {
+   "ev": 4,
+   "order": 8,
+   "name": "近藤 和",
+   "pref": "東京都",
+   "grade": "中3",
+   "wd": false
+  },
+  {
+   "ev": 4,
+   "order": 9,
+   "name": "植田 恵麻",
+   "pref": "香川県",
+   "grade": "中3",
+   "wd": false
+  },
+  {
+   "ev": 4,
+   "order": 10,
+   "name": "赤木 陽音",
+   "pref": "鳥取県",
+   "grade": "高2",
+   "wd": false
+  },
+  {
+   "ev": 4,
+   "order": 11,
+   "name": "長岡 凜",
+   "pref": "群馬県",
+   "grade": "高3",
+   "wd": false
+  },
+  {
+   "ev": 4,
+   "order": 12,
+   "name": "八木 星輝",
+   "pref": "神奈川県",
+   "grade": "高2",
+   "wd": false
+  },
+  {
+   "ev": 4,
+   "order": 13,
+   "name": "井上 優奈",
+   "pref": "高知県",
+   "grade": "高1",
+   "wd": false
+  },
+  {
+   "ev": 5,
+   "order": 1,
+   "name": "大島 幹央",
+   "pref": "福島県",
+   "grade": "高3",
+   "wd": false
+  },
+  {
+   "ev": 5,
+   "order": 2,
+   "name": "後藤 大輝",
+   "pref": "京都府",
+   "grade": "高3",
+   "wd": false
+  },
+  {
+   "ev": 5,
+   "order": 3,
+   "name": "和田 颯仁",
+   "pref": "和歌山県",
+   "grade": "中3",
+   "wd": false
+  },
+  {
+   "ev": 5,
+   "order": 4,
+   "name": "中山 一颯",
+   "pref": "石川県",
+   "grade": "高1",
+   "wd": false
+  },
+  {
+   "ev": 5,
+   "order": 5,
+   "name": "久保 彪",
+   "pref": "鹿児島県",
+   "grade": "高3",
+   "wd": false
+  },
+  {
+   "ev": 5,
+   "order": 6,
+   "name": "佐藤 海志",
+   "pref": "長野県",
+   "grade": "高1",
+   "wd": false
+  },
+  {
+   "ev": 5,
+   "order": 7,
+   "name": "金箱 琉海",
+   "pref": "愛知県",
+   "grade": "高2",
+   "wd": false
+  },
+  {
+   "ev": 5,
+   "order": 8,
+   "name": "廣冨 諒",
+   "pref": "島根県",
+   "grade": "高2",
+   "wd": false
+  },
+  {
+   "ev": 5,
+   "order": 9,
+   "name": "猿田 煌大",
+   "pref": "神奈川県",
+   "grade": "高3",
+   "wd": false
+  },
+  {
+   "ev": 5,
+   "order": 10,
+   "name": "古戎 徠人",
+   "pref": "広島県",
+   "grade": "中3",
+   "wd": false
+  },
+  {
+   "ev": 5,
+   "order": 11,
+   "name": "二階堂 律",
+   "pref": "高知県",
+   "grade": "高1",
+   "wd": false
+  },
+  {
+   "ev": 5,
+   "order": 12,
+   "name": "茶木 琉聖",
+   "pref": "大分県",
+   "grade": "高1",
+   "wd": false
+  },
+  {
+   "ev": 5,
+   "order": 13,
+   "name": "北村 応吏",
+   "pref": "佐賀県",
+   "grade": "高1",
+   "wd": false
+  },
+  {
+   "ev": 5,
+   "order": 14,
+   "name": "石沢 遥斗",
+   "pref": "新潟県",
+   "grade": "高3",
+   "wd": false
+  },
+  {
+   "ev": 6,
+   "order": 1,
+   "name": "坂田 力毅",
+   "pref": "富山県",
+   "grade": "大1",
+   "wd": false
+  },
+  {
+   "ev": 6,
+   "order": 2,
+   "name": "佐々木 康平",
+   "pref": "宮城県",
+   "grade": null,
+   "wd": false
+  },
+  {
+   "ev": 6,
+   "order": 3,
+   "name": "古谷 英成",
+   "pref": "栃木県",
+   "grade": "大1",
+   "wd": false
+  },
+  {
+   "ev": 6,
+   "order": 4,
+   "name": "池辺 寛人",
+   "pref": "大分県",
+   "grade": "大2",
+   "wd": false
+  },
+  {
+   "ev": 6,
+   "order": 5,
+   "name": "荒木 宥図",
+   "pref": "新潟県",
+   "grade": null,
+   "wd": false
+  },
+  {
+   "ev": 6,
+   "order": 6,
+   "name": "伊熊 扇李",
+   "pref": "兵庫県",
+   "grade": "大4",
+   "wd": false
+  },
+  {
+   "ev": 6,
+   "order": 7,
+   "name": "山田 周汰",
+   "pref": "静岡県",
+   "grade": null,
+   "wd": false
+  },
+  {
+   "ev": 6,
+   "order": 8,
+   "name": "金戸 快",
+   "pref": "東京都",
+   "grade": null,
+   "wd": false
+  },
+  {
+   "ev": 6,
+   "order": 9,
+   "name": "西田 玲雄",
+   "pref": "大阪府",
+   "grade": null,
+   "wd": false
+  },
+  {
+   "ev": 6,
+   "order": 10,
+   "name": "片岡 三亮",
+   "pref": "愛知県",
+   "grade": "大1",
+   "wd": false
+  },
+  {
+   "ev": 6,
+   "order": 11,
+   "name": "坂田 慈央",
+   "pref": "長野県",
+   "grade": null,
+   "wd": false
+  },
+  {
+   "ev": 6,
+   "order": 12,
+   "name": "瓶子 礼智",
+   "pref": "高知県",
+   "grade": "大2",
+   "wd": false
+  },
+  {
+   "ev": 6,
+   "order": 13,
+   "name": "坂田 麗鳳",
+   "pref": "宮崎県",
+   "grade": null,
+   "wd": false
+  },
+  {
+   "ev": 6,
+   "order": 14,
+   "name": "伊藤 洸輝",
+   "pref": "滋賀県",
+   "grade": null,
+   "wd": false
+  },
+  {
+   "ev": 6,
+   "order": 15,
+   "name": "二羽 倖駕",
+   "pref": "石川県",
+   "grade": "大3",
+   "wd": false
+  },
+  {
+   "ev": 6,
+   "order": 16,
+   "name": "須山 晴貴",
+   "pref": "島根県",
+   "grade": null,
+   "wd": false
+  },
+  {
+   "ev": 6,
+   "order": 17,
+   "name": "坂井 丞",
+   "pref": "神奈川県",
+   "grade": null,
+   "wd": false
+  },
+  {
+   "ev": 7,
+   "order": 1,
+   "name": "跡邊 あずき",
+   "pref": "福岡県",
+   "grade": "大1",
+   "wd": false
+  },
+  {
+   "ev": 7,
+   "order": 2,
+   "name": "山口 歩夏",
+   "pref": "三重県",
+   "grade": "大4",
+   "wd": false
+  },
+  {
+   "ev": 7,
+   "order": 3,
+   "name": "青山 由唯加",
+   "pref": "静岡県",
+   "grade": "大4",
+   "wd": false
+  },
+  {
+   "ev": 7,
+   "order": 4,
+   "name": "森淵 茉莉愛",
+   "pref": "広島県",
+   "grade": null,
+   "wd": false
+  },
+  {
+   "ev": 7,
+   "order": 5,
+   "name": "坂田 丹寧",
+   "pref": "茨城県",
+   "grade": "大2",
+   "wd": false
+  },
+  {
+   "ev": 7,
+   "order": 6,
+   "name": "西沢 明歩",
+   "pref": "福島県",
+   "grade": null,
+   "wd": false
+  },
+  {
+   "ev": 7,
+   "order": 7,
+   "name": "山崎 佳蓮",
+   "pref": "高知県",
+   "grade": "大4",
+   "wd": false
+  },
+  {
+   "ev": 7,
+   "order": 8,
+   "name": "荒井 祭里",
+   "pref": "佐賀県",
+   "grade": null,
+   "wd": false
+  },
+  {
+   "ev": 7,
+   "order": 9,
+   "name": "近藤 花菜",
+   "pref": "群馬県",
+   "grade": null,
+   "wd": false
+  },
+  {
+   "ev": 7,
+   "order": 10,
+   "name": "乗松 飛羽",
+   "pref": "愛媛県",
+   "grade": "大3",
+   "wd": false
+  },
+  {
+   "ev": 7,
+   "order": 11,
+   "name": "榎本 遼香",
+   "pref": "栃木県",
+   "grade": null,
+   "wd": false
+  },
+  {
+   "ev": 7,
+   "order": 12,
+   "name": "三上 紗也可",
+   "pref": "鳥取県",
+   "grade": null,
+   "wd": false
+  },
+  {
+   "ev": 8,
+   "order": 1,
+   "name": "松原 旭稀",
+   "pref": "岩手県",
+   "grade": "大2",
+   "wd": false
+  },
+  {
+   "ev": 8,
+   "order": 2,
+   "name": "坂之上 卓",
+   "pref": "鹿児島県",
+   "grade": null,
+   "wd": false
+  },
+  {
+   "ev": 8,
+   "order": 3,
+   "name": "古谷 英成",
+   "pref": "栃木県",
+   "grade": "大1",
+   "wd": false
+  },
+  {
+   "ev": 8,
+   "order": 4,
+   "name": "坂田 力毅",
+   "pref": "富山県",
+   "grade": "大1",
+   "wd": false
+  },
+  {
+   "ev": 8,
+   "order": 5,
+   "name": "池辺 寛人",
+   "pref": "大分県",
+   "grade": "大2",
+   "wd": false
+  },
+  {
+   "ev": 8,
+   "order": 6,
+   "name": "片岡 三亮",
+   "pref": "愛知県",
+   "grade": "大1",
+   "wd": false
+  },
+  {
+   "ev": 8,
+   "order": 7,
+   "name": "瓶子 礼智",
+   "pref": "高知県",
+   "grade": "大2",
+   "wd": false
+  },
+  {
+   "ev": 8,
+   "order": 8,
+   "name": "坂田 麗鳳",
+   "pref": "宮崎県",
+   "grade": null,
+   "wd": false
+  },
+  {
+   "ev": 8,
+   "order": 9,
+   "name": "坂田 慈央",
+   "pref": "長野県",
+   "grade": null,
+   "wd": false
+  },
+  {
+   "ev": 8,
+   "order": 10,
+   "name": "大久保 柊",
+   "pref": "茨城県",
+   "grade": null,
+   "wd": false
+  },
+  {
+   "ev": 8,
+   "order": 11,
+   "name": "二羽 倖駕",
+   "pref": "石川県",
+   "grade": "大3",
+   "wd": false
+  },
+  {
+   "ev": 8,
+   "order": 12,
+   "name": "山田 周汰",
+   "pref": "静岡県",
+   "grade": null,
+   "wd": false
+  },
+  {
+   "ev": 8,
+   "order": 13,
+   "name": "金戸 快",
+   "pref": "東京都",
+   "grade": null,
+   "wd": false
+  },
+  {
+   "ev": 8,
+   "order": 14,
+   "name": "西田 玲雄",
+   "pref": "大阪府",
+   "grade": null,
+   "wd": false
+  },
+  {
+   "ev": 8,
+   "order": 15,
+   "name": "玉井 陸斗",
+   "pref": "兵庫県",
+   "grade": "大2",
+   "wd": false
+  }
+ ],
+ "people": [
+  {
+   "name": "荒木 花音",
+   "pref": "茨城県",
+   "grade": "高3",
+   "gender": "女子",
+   "cat": "少年",
+   "kana": "あらき かのん",
+   "evs": [
+    {
+     "ev": 1,
+     "order": 1,
+     "wd": false
+    },
+    {
+     "ev": 4,
+     "order": 5,
+     "wd": false
+    }
+   ],
+   "key": "荒木花音|茨城県"
+  },
+  {
+   "name": "鈴木 静玖",
+   "pref": "千葉県",
+   "grade": "高3",
+   "gender": "女子",
+   "cat": "少年",
+   "kana": "すずき しずく",
+   "evs": [
+    {
+     "ev": 1,
+     "order": 2,
+     "wd": false
+    },
+    {
+     "ev": 4,
+     "order": 7,
+     "wd": false
+    }
+   ],
+   "key": "鈴木静玖|千葉県"
+  },
+  {
+   "name": "杉本 絢菜",
+   "pref": "山形県",
+   "grade": "高1",
+   "gender": "女子",
+   "cat": "少年",
+   "kana": "すぎもと あやな",
+   "evs": [
+    {
+     "ev": 1,
+     "order": 3,
+     "wd": false
+    },
+    {
+     "ev": 4,
+     "order": 1,
+     "wd": false
+    }
+   ],
+   "key": "杉本絢菜|山形県"
+  },
+  {
+   "name": "千葉 優奈",
+   "pref": "福島県",
+   "grade": "高1",
+   "gender": "女子",
+   "cat": "少年",
+   "kana": "ちば ゆうな",
+   "evs": [
+    {
+     "ev": 1,
+     "order": 4,
+     "wd": false
+    },
+    {
+     "ev": 4,
+     "order": 2,
+     "wd": false
+    }
+   ],
+   "key": "千葉優奈|福島県"
+  },
+  {
+   "name": "山口 真菜",
+   "pref": "奈良県",
+   "grade": "高1",
+   "gender": "女子",
+   "cat": "少年",
+   "kana": "やまぐち まな",
+   "evs": [
+    {
+     "ev": 1,
+     "order": 5,
+     "wd": false
+    },
+    {
+     "ev": 4,
+     "order": 4,
+     "wd": false
+    }
+   ],
+   "key": "山口真菜|奈良県"
+  },
+  {
+   "name": "植田 恵麻",
+   "pref": "香川県",
+   "grade": "中3",
+   "gender": "女子",
+   "cat": "少年",
+   "kana": "うえた えま",
+   "evs": [
+    {
+     "ev": 1,
+     "order": 6,
+     "wd": false
+    },
+    {
+     "ev": 4,
+     "order": 9,
+     "wd": false
+    }
+   ],
+   "key": "植田恵麻|香川県"
+  },
+  {
+   "name": "野坂 律季",
+   "pref": "鳥取県",
+   "grade": "中3",
+   "gender": "女子",
+   "cat": "少年",
+   "kana": "のさか りつき",
+   "evs": [
+    {
+     "ev": 1,
+     "order": 7,
+     "wd": false
+    }
+   ],
+   "key": "野坂律季|鳥取県"
+  },
+  {
+   "name": "山本 彩華",
+   "pref": "広島県",
+   "grade": "中3",
+   "gender": "女子",
+   "cat": "少年",
+   "kana": "やまもと あやか",
+   "evs": [
+    {
+     "ev": 1,
+     "order": 8,
+     "wd": false
+    },
+    {
+     "ev": 4,
+     "order": 6,
+     "wd": false
+    }
+   ],
+   "key": "山本彩華|広島県"
+  },
+  {
+   "name": "豊田 宙未",
+   "pref": "埼玉県",
+   "grade": "高2",
+   "gender": "女子",
+   "cat": "少年",
+   "kana": "とよた そみ",
+   "evs": [
+    {
+     "ev": 1,
+     "order": 9,
+     "wd": false
+    },
+    {
+     "ev": 4,
+     "order": 3,
+     "wd": false
+    }
+   ],
+   "key": "豊田宙未|埼玉県"
+  },
+  {
+   "name": "山田 比歩未",
+   "pref": "東京都",
+   "grade": "高1",
+   "gender": "女子",
+   "cat": "少年",
+   "kana": "やまだ ひふみ",
+   "evs": [
+    {
+     "ev": 1,
+     "order": 10,
+     "wd": false
+    }
+   ],
+   "key": "山田比歩未|東京都"
+  },
+  {
+   "name": "長岡 凜",
+   "pref": "群馬県",
+   "grade": "高3",
+   "gender": "女子",
+   "cat": "少年",
+   "kana": "ながおか りん",
+   "evs": [
+    {
+     "ev": 1,
+     "order": 11,
+     "wd": false
+    },
+    {
+     "ev": 4,
+     "order": 11,
+     "wd": false
+    }
+   ],
+   "key": "長岡凜|群馬県"
+  },
+  {
+   "name": "八木 星輝",
+   "pref": "神奈川県",
+   "grade": "高2",
+   "gender": "女子",
+   "cat": "少年",
+   "kana": "やぎ せいら",
+   "evs": [
+    {
+     "ev": 1,
+     "order": 12,
+     "wd": false
+    },
+    {
+     "ev": 4,
+     "order": 12,
+     "wd": false
+    }
+   ],
+   "key": "八木星輝|神奈川県"
+  },
+  {
+   "name": "井上 優奈",
+   "pref": "高知県",
+   "grade": "高1",
+   "gender": "女子",
+   "cat": "少年",
+   "kana": "いのうえ ゆな",
+   "evs": [
+    {
+     "ev": 1,
+     "order": 13,
+     "wd": false
+    },
+    {
+     "ev": 4,
+     "order": 13,
+     "wd": false
+    }
+   ],
+   "key": "井上優奈|高知県"
+  },
+  {
+   "name": "佐藤 海志",
+   "pref": "長野県",
+   "grade": "高1",
+   "gender": "男子",
+   "cat": "少年",
+   "kana": "さとう かいし",
+   "evs": [
+    {
+     "ev": 2,
+     "order": 1,
+     "wd": false
+    },
+    {
+     "ev": 5,
+     "order": 6,
+     "wd": false
+    }
+   ],
+   "key": "佐藤海志|長野県"
+  },
+  {
+   "name": "後藤 大輝",
+   "pref": "京都府",
+   "grade": "高3",
+   "gender": "男子",
+   "cat": "少年",
+   "kana": "ごとう だいき",
+   "evs": [
+    {
+     "ev": 2,
+     "order": 2,
+     "wd": false
+    },
+    {
+     "ev": 5,
+     "order": 2,
+     "wd": false
+    }
+   ],
+   "key": "後藤大輝|京都府"
+  },
+  {
+   "name": "久保 彪",
+   "pref": "鹿児島県",
+   "grade": "高3",
+   "gender": "男子",
+   "cat": "少年",
+   "kana": "くぼ たける",
+   "evs": [
+    {
+     "ev": 2,
+     "order": 3,
+     "wd": false
+    },
+    {
+     "ev": 5,
+     "order": 5,
+     "wd": false
+    }
+   ],
+   "key": "久保彪|鹿児島県"
+  },
+  {
+   "name": "中山 一颯",
+   "pref": "石川県",
+   "grade": "高1",
+   "gender": "男子",
+   "cat": "少年",
+   "kana": "なかやま いつは",
+   "evs": [
+    {
+     "ev": 2,
+     "order": 4,
+     "wd": false
+    },
+    {
+     "ev": 5,
+     "order": 4,
+     "wd": false
+    }
+   ],
+   "key": "中山一颯|石川県"
+  },
+  {
+   "name": "二階堂 律",
+   "pref": "高知県",
+   "grade": "高1",
+   "gender": "男子",
+   "cat": "少年",
+   "kana": "にかいどう りつ",
+   "evs": [
+    {
+     "ev": 2,
+     "order": 5,
+     "wd": true
+    },
+    {
+     "ev": 5,
+     "order": 11,
+     "wd": false
+    }
+   ],
+   "key": "二階堂律|高知県"
+  },
+  {
+   "name": "和田 颯仁",
+   "pref": "和歌山県",
+   "grade": "中3",
+   "gender": "男子",
+   "cat": "少年",
+   "kana": "わだ ふうと",
+   "evs": [
+    {
+     "ev": 2,
+     "order": 6,
+     "wd": false
+    },
+    {
+     "ev": 5,
+     "order": 3,
+     "wd": false
+    }
+   ],
+   "key": "和田颯仁|和歌山県"
+  },
+  {
+   "name": "金箱 琉海",
+   "pref": "愛知県",
+   "grade": "高2",
+   "gender": "男子",
+   "cat": "少年",
+   "kana": "かねばこ るか",
+   "evs": [
+    {
+     "ev": 2,
+     "order": 7,
+     "wd": false
+    },
+    {
+     "ev": 5,
+     "order": 7,
+     "wd": false
+    }
+   ],
+   "key": "金箱琉海|愛知県"
+  },
+  {
+   "name": "廣冨 諒",
+   "pref": "島根県",
+   "grade": "高2",
+   "gender": "男子",
+   "cat": "少年",
+   "kana": "ひろとみ りょう",
+   "evs": [
+    {
+     "ev": 2,
+     "order": 8,
+     "wd": false
+    },
+    {
+     "ev": 5,
+     "order": 8,
+     "wd": false
+    }
+   ],
+   "key": "廣冨諒|島根県"
+  },
+  {
+   "name": "伴 和真",
+   "pref": "岡山県",
+   "grade": "高3",
+   "gender": "男子",
+   "cat": "少年",
+   "kana": "ばん かずま",
+   "evs": [
+    {
+     "ev": 2,
+     "order": 9,
+     "wd": false
+    }
+   ],
+   "key": "伴和真|岡山県"
+  },
+  {
+   "name": "猿田 煌大",
+   "pref": "神奈川県",
+   "grade": "高3",
+   "gender": "男子",
+   "cat": "少年",
+   "kana": "さるた こうだい",
+   "evs": [
+    {
+     "ev": 2,
+     "order": 10,
+     "wd": false
+    },
+    {
+     "ev": 5,
+     "order": 9,
+     "wd": false
+    }
+   ],
+   "key": "猿田煌大|神奈川県"
+  },
+  {
+   "name": "古戎 徠人",
+   "pref": "広島県",
+   "grade": "中3",
+   "gender": "男子",
+   "cat": "少年",
+   "kana": "こえびす らいと",
+   "evs": [
+    {
+     "ev": 2,
+     "order": 11,
+     "wd": false
+    },
+    {
+     "ev": 5,
+     "order": 10,
+     "wd": false
+    }
+   ],
+   "key": "古戎徠人|広島県"
+  },
+  {
+   "name": "北村 応吏",
+   "pref": "佐賀県",
+   "grade": "高1",
+   "gender": "男子",
+   "cat": "少年",
+   "kana": "きたむら おうり",
+   "evs": [
+    {
+     "ev": 2,
+     "order": 12,
+     "wd": false
+    },
+    {
+     "ev": 5,
+     "order": 13,
+     "wd": false
+    }
+   ],
+   "key": "北村応吏|佐賀県"
+  },
+  {
+   "name": "石沢 遥斗",
+   "pref": "新潟県",
+   "grade": "高3",
+   "gender": "男子",
+   "cat": "少年",
+   "kana": "いしざわ はると",
+   "evs": [
+    {
+     "ev": 2,
+     "order": 13,
+     "wd": false
+    },
+    {
+     "ev": 5,
+     "order": 14,
+     "wd": false
+    }
+   ],
+   "key": "石沢遥斗|新潟県"
+  },
+  {
+   "name": "茶木 琉聖",
+   "pref": "大分県",
+   "grade": "高1",
+   "gender": "男子",
+   "cat": "少年",
+   "kana": "ちゃき るい",
+   "evs": [
+    {
+     "ev": 2,
+     "order": 14,
+     "wd": true
+    },
+    {
+     "ev": 5,
+     "order": 12,
+     "wd": false
+    }
+   ],
+   "key": "茶木琉聖|大分県"
+  },
+  {
+   "name": "跡邊 あずき",
+   "pref": "福岡県",
+   "grade": "大1",
+   "gender": "女子",
+   "cat": "成年",
+   "kana": "あとべ あずき",
+   "evs": [
+    {
+     "ev": 3,
+     "order": 1,
+     "wd": false
+    },
+    {
+     "ev": 7,
+     "order": 1,
+     "wd": false
+    }
+   ],
+   "key": "跡邊あずき|福岡県"
+  },
+  {
+   "name": "近藤 花菜",
+   "pref": "群馬県",
+   "grade": null,
+   "gender": "女子",
+   "cat": "成年",
+   "kana": "こんどう はな",
+   "evs": [
+    {
+     "ev": 3,
+     "order": 2,
+     "wd": false
+    },
+    {
+     "ev": 7,
+     "order": 9,
+     "wd": false
+    }
+   ],
+   "key": "近藤花菜|群馬県"
+  },
+  {
+   "name": "青山 由唯加",
+   "pref": "静岡県",
+   "grade": "大4",
+   "gender": "女子",
+   "cat": "成年",
+   "kana": "あおやま ゆいか",
+   "evs": [
+    {
+     "ev": 3,
+     "order": 3,
+     "wd": false
+    },
+    {
+     "ev": 7,
+     "order": 3,
+     "wd": false
+    }
+   ],
+   "key": "青山由唯加|静岡県"
+  },
+  {
+   "name": "森淵 茉莉愛",
+   "pref": "広島県",
+   "grade": null,
+   "gender": "女子",
+   "cat": "成年",
+   "kana": "もりぶち まりあ",
+   "evs": [
+    {
+     "ev": 3,
+     "order": 4,
+     "wd": false
+    },
+    {
+     "ev": 7,
+     "order": 4,
+     "wd": false
+    }
+   ],
+   "key": "森淵茉莉愛|広島県"
+  },
+  {
+   "name": "坂田 丹寧",
+   "pref": "茨城県",
+   "grade": "大2",
+   "gender": "女子",
+   "cat": "成年",
+   "kana": "さかた あかね",
+   "evs": [
+    {
+     "ev": 3,
+     "order": 5,
+     "wd": false
+    },
+    {
+     "ev": 7,
+     "order": 5,
+     "wd": false
+    }
+   ],
+   "key": "坂田丹寧|茨城県"
+  },
+  {
+   "name": "西沢 明歩",
+   "pref": "福島県",
+   "grade": null,
+   "gender": "女子",
+   "cat": "成年",
+   "kana": "にしざわ めいほ",
+   "evs": [
+    {
+     "ev": 3,
+     "order": 6,
+     "wd": false
+    },
+    {
+     "ev": 7,
+     "order": 6,
+     "wd": false
+    }
+   ],
+   "key": "西沢明歩|福島県"
+  },
+  {
+   "name": "乗松 飛羽",
+   "pref": "愛媛県",
+   "grade": "大3",
+   "gender": "女子",
+   "cat": "成年",
+   "kana": "のりまつ とわ",
+   "evs": [
+    {
+     "ev": 3,
+     "order": 7,
+     "wd": false
+    },
+    {
+     "ev": 7,
+     "order": 10,
+     "wd": false
+    }
+   ],
+   "key": "乗松飛羽|愛媛県"
+  },
+  {
+   "name": "山崎 佳蓮",
+   "pref": "高知県",
+   "grade": "大4",
+   "gender": "女子",
+   "cat": "成年",
+   "kana": "やまさき かれん",
+   "evs": [
+    {
+     "ev": 3,
+     "order": 8,
+     "wd": false
+    },
+    {
+     "ev": 7,
+     "order": 7,
+     "wd": false
+    }
+   ],
+   "key": "山崎佳蓮|高知県"
+  },
+  {
+   "name": "金戸 凜",
+   "pref": "東京都",
+   "grade": null,
+   "gender": "女子",
+   "cat": "成年",
+   "kana": "かねと りん",
+   "evs": [
+    {
+     "ev": 3,
+     "order": 9,
+     "wd": false
+    }
+   ],
+   "key": "金戸凜|東京都"
+  },
+  {
+   "name": "荒井 祭里",
+   "pref": "佐賀県",
+   "grade": null,
+   "gender": "女子",
+   "cat": "成年",
+   "kana": "あらい まつり",
+   "evs": [
+    {
+     "ev": 3,
+     "order": 10,
+     "wd": false
+    },
+    {
+     "ev": 7,
+     "order": 8,
+     "wd": false
+    }
+   ],
+   "key": "荒井祭里|佐賀県"
+  },
+  {
+   "name": "近藤 和",
+   "pref": "東京都",
+   "grade": "中3",
+   "gender": "女子",
+   "cat": "少年",
+   "kana": null,
+   "evs": [
+    {
+     "ev": 4,
+     "order": 8,
+     "wd": false
+    }
+   ],
+   "key": "近藤和|東京都"
+  },
+  {
+   "name": "赤木 陽音",
+   "pref": "鳥取県",
+   "grade": "高2",
+   "gender": "女子",
+   "cat": "少年",
+   "kana": null,
+   "evs": [
+    {
+     "ev": 4,
+     "order": 10,
+     "wd": false
+    }
+   ],
+   "key": "赤木陽音|鳥取県"
+  },
+  {
+   "name": "大島 幹央",
+   "pref": "福島県",
+   "grade": "高3",
+   "gender": "男子",
+   "cat": "少年",
+   "kana": null,
+   "evs": [
+    {
+     "ev": 5,
+     "order": 1,
+     "wd": false
+    }
+   ],
+   "key": "大島幹央|福島県"
+  },
+  {
+   "name": "坂田 力毅",
+   "pref": "富山県",
+   "grade": "大1",
+   "gender": "男子",
+   "cat": "成年",
+   "kana": null,
+   "evs": [
+    {
+     "ev": 6,
+     "order": 1,
+     "wd": false
+    },
+    {
+     "ev": 8,
+     "order": 4,
+     "wd": false
+    }
+   ],
+   "key": "坂田力毅|富山県"
+  },
+  {
+   "name": "佐々木 康平",
+   "pref": "宮城県",
+   "grade": null,
+   "gender": "男子",
+   "cat": "成年",
+   "kana": null,
+   "evs": [
+    {
+     "ev": 6,
+     "order": 2,
+     "wd": false
+    }
+   ],
+   "key": "佐々木康平|宮城県"
+  },
+  {
+   "name": "古谷 英成",
+   "pref": "栃木県",
+   "grade": "大1",
+   "gender": "男子",
+   "cat": "成年",
+   "kana": null,
+   "evs": [
+    {
+     "ev": 6,
+     "order": 3,
+     "wd": false
+    },
+    {
+     "ev": 8,
+     "order": 3,
+     "wd": false
+    }
+   ],
+   "key": "古谷英成|栃木県"
+  },
+  {
+   "name": "池辺 寛人",
+   "pref": "大分県",
+   "grade": "大2",
+   "gender": "男子",
+   "cat": "成年",
+   "kana": null,
+   "evs": [
+    {
+     "ev": 6,
+     "order": 4,
+     "wd": false
+    },
+    {
+     "ev": 8,
+     "order": 5,
+     "wd": false
+    }
+   ],
+   "key": "池辺寛人|大分県"
+  },
+  {
+   "name": "荒木 宥図",
+   "pref": "新潟県",
+   "grade": null,
+   "gender": "男子",
+   "cat": "成年",
+   "kana": null,
+   "evs": [
+    {
+     "ev": 6,
+     "order": 5,
+     "wd": false
+    }
+   ],
+   "key": "荒木宥図|新潟県"
+  },
+  {
+   "name": "伊熊 扇李",
+   "pref": "兵庫県",
+   "grade": "大4",
+   "gender": "男子",
+   "cat": "成年",
+   "kana": null,
+   "evs": [
+    {
+     "ev": 6,
+     "order": 6,
+     "wd": false
+    }
+   ],
+   "key": "伊熊扇李|兵庫県"
+  },
+  {
+   "name": "山田 周汰",
+   "pref": "静岡県",
+   "grade": null,
+   "gender": "男子",
+   "cat": "成年",
+   "kana": null,
+   "evs": [
+    {
+     "ev": 6,
+     "order": 7,
+     "wd": false
+    },
+    {
+     "ev": 8,
+     "order": 12,
+     "wd": false
+    }
+   ],
+   "key": "山田周汰|静岡県"
+  },
+  {
+   "name": "金戸 快",
+   "pref": "東京都",
+   "grade": null,
+   "gender": "男子",
+   "cat": "成年",
+   "kana": null,
+   "evs": [
+    {
+     "ev": 6,
+     "order": 8,
+     "wd": false
+    },
+    {
+     "ev": 8,
+     "order": 13,
+     "wd": false
+    }
+   ],
+   "key": "金戸快|東京都"
+  },
+  {
+   "name": "西田 玲雄",
+   "pref": "大阪府",
+   "grade": null,
+   "gender": "男子",
+   "cat": "成年",
+   "kana": null,
+   "evs": [
+    {
+     "ev": 6,
+     "order": 9,
+     "wd": false
+    },
+    {
+     "ev": 8,
+     "order": 14,
+     "wd": false
+    }
+   ],
+   "key": "西田玲雄|大阪府"
+  },
+  {
+   "name": "片岡 三亮",
+   "pref": "愛知県",
+   "grade": "大1",
+   "gender": "男子",
+   "cat": "成年",
+   "kana": null,
+   "evs": [
+    {
+     "ev": 6,
+     "order": 10,
+     "wd": false
+    },
+    {
+     "ev": 8,
+     "order": 6,
+     "wd": false
+    }
+   ],
+   "key": "片岡三亮|愛知県"
+  },
+  {
+   "name": "坂田 慈央",
+   "pref": "長野県",
+   "grade": null,
+   "gender": "男子",
+   "cat": "成年",
+   "kana": null,
+   "evs": [
+    {
+     "ev": 6,
+     "order": 11,
+     "wd": false
+    },
+    {
+     "ev": 8,
+     "order": 9,
+     "wd": false
+    }
+   ],
+   "key": "坂田慈央|長野県"
+  },
+  {
+   "name": "瓶子 礼智",
+   "pref": "高知県",
+   "grade": "大2",
+   "gender": "男子",
+   "cat": "成年",
+   "kana": null,
+   "evs": [
+    {
+     "ev": 6,
+     "order": 12,
+     "wd": false
+    },
+    {
+     "ev": 8,
+     "order": 7,
+     "wd": false
+    }
+   ],
+   "key": "瓶子礼智|高知県"
+  },
+  {
+   "name": "坂田 麗鳳",
+   "pref": "宮崎県",
+   "grade": null,
+   "gender": "男子",
+   "cat": "成年",
+   "kana": null,
+   "evs": [
+    {
+     "ev": 6,
+     "order": 13,
+     "wd": false
+    },
+    {
+     "ev": 8,
+     "order": 8,
+     "wd": false
+    }
+   ],
+   "key": "坂田麗鳳|宮崎県"
+  },
+  {
+   "name": "伊藤 洸輝",
+   "pref": "滋賀県",
+   "grade": null,
+   "gender": "男子",
+   "cat": "成年",
+   "kana": null,
+   "evs": [
+    {
+     "ev": 6,
+     "order": 14,
+     "wd": false
+    }
+   ],
+   "key": "伊藤洸輝|滋賀県"
+  },
+  {
+   "name": "二羽 倖駕",
+   "pref": "石川県",
+   "grade": "大3",
+   "gender": "男子",
+   "cat": "成年",
+   "kana": null,
+   "evs": [
+    {
+     "ev": 6,
+     "order": 15,
+     "wd": false
+    },
+    {
+     "ev": 8,
+     "order": 11,
+     "wd": false
+    }
+   ],
+   "key": "二羽倖駕|石川県"
+  },
+  {
+   "name": "須山 晴貴",
+   "pref": "島根県",
+   "grade": null,
+   "gender": "男子",
+   "cat": "成年",
+   "kana": null,
+   "evs": [
+    {
+     "ev": 6,
+     "order": 16,
+     "wd": false
+    }
+   ],
+   "key": "須山晴貴|島根県"
+  },
+  {
+   "name": "坂井 丞",
+   "pref": "神奈川県",
+   "grade": null,
+   "gender": "男子",
+   "cat": "成年",
+   "kana": null,
+   "evs": [
+    {
+     "ev": 6,
+     "order": 17,
+     "wd": false
+    }
+   ],
+   "key": "坂井丞|神奈川県"
+  },
+  {
+   "name": "山口 歩夏",
+   "pref": "三重県",
+   "grade": "大4",
+   "gender": "女子",
+   "cat": "成年",
+   "kana": null,
+   "evs": [
+    {
+     "ev": 7,
+     "order": 2,
+     "wd": false
+    }
+   ],
+   "key": "山口歩夏|三重県"
+  },
+  {
+   "name": "榎本 遼香",
+   "pref": "栃木県",
+   "grade": null,
+   "gender": "女子",
+   "cat": "成年",
+   "kana": null,
+   "evs": [
+    {
+     "ev": 7,
+     "order": 11,
+     "wd": false
+    }
+   ],
+   "key": "榎本遼香|栃木県"
+  },
+  {
+   "name": "三上 紗也可",
+   "pref": "鳥取県",
+   "grade": null,
+   "gender": "女子",
+   "cat": "成年",
+   "kana": null,
+   "evs": [
+    {
+     "ev": 7,
+     "order": 12,
+     "wd": false
+    }
+   ],
+   "key": "三上紗也可|鳥取県"
+  },
+  {
+   "name": "松原 旭稀",
+   "pref": "岩手県",
+   "grade": "大2",
+   "gender": "男子",
+   "cat": "成年",
+   "kana": null,
+   "evs": [
+    {
+     "ev": 8,
+     "order": 1,
+     "wd": false
+    }
+   ],
+   "key": "松原旭稀|岩手県"
+  },
+  {
+   "name": "坂之上 卓",
+   "pref": "鹿児島県",
+   "grade": null,
+   "gender": "男子",
+   "cat": "成年",
+   "kana": null,
+   "evs": [
+    {
+     "ev": 8,
+     "order": 2,
+     "wd": false
+    }
+   ],
+   "key": "坂之上卓|鹿児島県"
+  },
+  {
+   "name": "大久保 柊",
+   "pref": "茨城県",
+   "grade": null,
+   "gender": "男子",
+   "cat": "成年",
+   "kana": null,
+   "evs": [
+    {
+     "ev": 8,
+     "order": 10,
+     "wd": false
+    }
+   ],
+   "key": "大久保柊|茨城県"
+  },
+  {
+   "name": "玉井 陸斗",
+   "pref": "兵庫県",
+   "grade": "大2",
+   "gender": "男子",
+   "cat": "成年",
+   "kana": null,
+   "evs": [
+    {
+     "ev": 8,
+     "order": 15,
+     "wd": false
+    }
+   ],
+   "key": "玉井陸斗|兵庫県"
+  }
+ ]
+}

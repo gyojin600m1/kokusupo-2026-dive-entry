@@ -1,0 +1,207 @@
+{
+ "results": {
+  "1": {
+   "start": "10:00",
+   "rows": [
+    {
+     "rank": 1,
+     "status": null,
+     "name": "井上 優奈",
+     "pref": "高知県",
+     "points": 200.4
+    },
+    {
+     "rank": 2,
+     "status": null,
+     "name": "山田 比歩未",
+     "pref": "東京都",
+     "points": 191.1
+    },
+    {
+     "rank": 3,
+     "status": null,
+     "name": "鈴木 静玖",
+     "pref": "千葉県",
+     "points": 177.3
+    },
+    {
+     "rank": 4,
+     "status": null,
+     "name": "八木 星輝",
+     "pref": "神奈川県",
+     "points": 159.45
+    },
+    {
+     "rank": 5,
+     "status": null,
+     "name": "山本 彩華",
+     "pref": "広島県",
+     "points": 159.2
+    },
+    {
+     "rank": 6,
+     "status": null,
+     "name": "千葉 優奈",
+     "pref": "福島県",
+     "points": 155.9
+    },
+    {
+     "rank": 7,
+     "status": null,
+     "name": "豊田 宙未",
+     "pref": "埼玉県",
+     "points": 155.6
+    },
+    {
+     "rank": 8,
+     "status": null,
+     "name": "植田 恵麻",
+     "pref": "香川県",
+     "points": 153.8
+    },
+    {
+     "rank": 9,
+     "status": null,
+     "name": "杉本 絢菜",
+     "pref": "山形県",
+     "points": 146.95
+    },
+    {
+     "rank": 10,
+     "status": null,
+     "name": "長岡 凜",
+     "pref": "群馬県",
+     "points": 132.7
+    },
+    {
+     "rank": 11,
+     "status": null,
+     "name": "山口 真菜",
+     "pref": "奈良県",
+     "points": 124.75
+    },
+    {
+     "rank": 12,
+     "status": null,
+     "name": "荒木 花音",
+     "pref": "茨城県",
+     "points": 107.4
+    },
+    {
+     "rank": null,
+     "status": "棄権",
+     "name": "野坂 律季",
+     "pref": "鳥取県",
+     "points": null
+    }
+   ]
+  },
+  "2": {
+   "start": "12:30",
+   "rows": [
+    {
+     "rank": 1,
+     "status": null,
+     "name": "石沢 遥斗",
+     "pref": "新潟県",
+     "points": 306.4
+    },
+    {
+     "rank": 2,
+     "status": null,
+     "name": "古戎 徠人",
+     "pref": "広島県",
+     "points": 274.85
+    },
+    {
+     "rank": 3,
+     "status": null,
+     "name": "廣冨 諒",
+     "pref": "島根県",
+     "points": 228.45
+    },
+    {
+     "rank": 4,
+     "status": null,
+     "name": "北村 応吏",
+     "pref": "佐賀県",
+     "points": 214.45
+    },
+    {
+     "rank": 5,
+     "status": null,
+     "name": "伴 和真",
+     "pref": "岡山県",
+     "points": 213.4
+    },
+    {
+     "rank": 6,
+     "status": null,
+     "name": "猿田 煌大",
+     "pref": "神奈川県",
+     "points": 202.4
+    },
+    {
+     "rank": 7,
+     "status": null,
+     "name": "久保 彪",
+     "pref": "鹿児島県",
+     "points": 193.6
+    },
+    {
+     "rank": 8,
+     "status": null,
+     "name": "金箱 琉海",
+     "pref": "愛知県",
+     "points": 187.25
+    },
+    {
+     "rank": 9,
+     "status": null,
+     "name": "和田 颯仁",
+     "pref": "和歌山県",
+     "points": 179.7
+    },
+    {
+     "rank": 10,
+     "status": null,
+     "name": "佐藤 海志",
+     "pref": "長野県",
+     "points": 178.5
+    },
+    {
+     "rank": 11,
+     "status": null,
+     "name": "中山 一颯",
+     "pref": "石川県",
+     "points": 174.15
+    },
+    {
+     "rank": 12,
+     "status": null,
+     "name": "後藤 大輝",
+     "pref": "京都府",
+     "points": 134.95
+    },
+    {
+     "rank": null,
+     "status": "棄権",
+     "name": "茶木 琉聖",
+     "pref": "大分県",
+     "points": null
+    },
+    {
+     "rank": null,
+     "status": "棄権",
+     "name": "二階堂 律",
+     "pref": "高知県",
+     "points": null
+    }
+   ]
+  }
+ },
+ "done": [
+  1,
+  2
+ ]
+}
