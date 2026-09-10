@@ -198,10 +198,86 @@
      "points": null
     }
    ]
+  },
+  "3": {
+   "start": "15:00",
+   "rows": [
+    {
+     "rank": 1,
+     "status": null,
+     "name": "荒井 祭里",
+     "pref": "佐賀県",
+     "points": 359.35
+    },
+    {
+     "rank": 2,
+     "status": null,
+     "name": "金戸 凜",
+     "pref": "東京都",
+     "points": 339.3
+    },
+    {
+     "rank": 3,
+     "status": null,
+     "name": "山崎 佳蓮",
+     "pref": "高知県",
+     "points": 274.4
+    },
+    {
+     "rank": 4,
+     "status": null,
+     "name": "西沢 明歩",
+     "pref": "福島県",
+     "points": 248.15
+    },
+    {
+     "rank": 5,
+     "status": null,
+     "name": "乗松 飛羽",
+     "pref": "愛媛県",
+     "points": 247.0
+    },
+    {
+     "rank": 6,
+     "status": null,
+     "name": "森淵 茉莉愛",
+     "pref": "広島県",
+     "points": 228.5
+    },
+    {
+     "rank": 7,
+     "status": null,
+     "name": "坂田 丹寧",
+     "pref": "茨城県",
+     "points": 225.9
+    },
+    {
+     "rank": 8,
+     "status": null,
+     "name": "青山 由唯加",
+     "pref": "静岡県",
+     "points": 206.7
+    },
+    {
+     "rank": 9,
+     "status": null,
+     "name": "近藤 花菜",
+     "pref": "群馬県",
+     "points": 170.2
+    },
+    {
+     "rank": 10,
+     "status": null,
+     "name": "跡邊 あずき",
+     "pref": "福岡県",
+     "points": 167.7
+    }
+   ]
   }
  },
  "done": [
   1,
-  2
+  2,
+  3
  ]
 }
