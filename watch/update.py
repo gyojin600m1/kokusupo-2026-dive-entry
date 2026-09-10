@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """国スポ2026 飛込：公式の順位一覧が出たら取り込んで公開ページを更新する。
-launchdから5分おきに呼ばれる。Claudeもトークンも使わない。"""
+launchdから15分おきに呼ばれる（飛込は1日3種目ほどで、競泳のように結果が連続では出ない）。Claudeもトークンも使わない。"""
 import json, subprocess, sys, os
 from datetime import datetime
 from pathlib import Path

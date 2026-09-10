@@ -80,7 +80,7 @@ HTML = r"""<!doctype html>
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; connect-src https://abacus.jasoncameron.dev; img-src 'self' data:; base-uri 'none'; form-action 'none'">
 <meta name="theme-color" content="#10182f">
-<title>国スポ2026 飛込 エントリー確認</title>
+<title>国スポ2026 飛込 エントリー・結果</title>
 <style>
 :root{
   --bg:#10182f;--panel:#182442;--panel2:#1d2b4d;--text:#f4f8ff;--muted:#aebbd5;--accent:#00c4ff;--gold:#ffd766;--line:#30436c;
@@ -218,7 +218,7 @@ a{color:var(--accent)}
 <body>
 <main>
   <div class="eyebrow">KOKUSPO 2026 · DIVING</div>
-  <h1>国スポ 飛込<br>エントリー確認</h1>
+  <h1>国スポ 飛込<br>エントリー・結果</h1>
   <ul class="facts">
     <li><b>9月10日</b>〜<b>12日</b></li>
     <li>全<b>8種目</b></li>
