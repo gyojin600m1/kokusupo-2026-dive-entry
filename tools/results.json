@@ -369,12 +369,116 @@
      "points": 107.4
     }
    ]
+  },
+  "5": {
+   "start": "12:30",
+   "rows": [
+    {
+     "rank": 1,
+     "status": null,
+     "name": "北村 応吏",
+     "pref": "佐賀県",
+     "points": 301.15
+    },
+    {
+     "rank": 2,
+     "status": null,
+     "name": "金箱 琉海",
+     "pref": "愛知県",
+     "points": 249.75
+    },
+    {
+     "rank": 3,
+     "status": null,
+     "name": "猿田 煌大",
+     "pref": "神奈川県",
+     "points": 244.6
+    },
+    {
+     "rank": 4,
+     "status": null,
+     "name": "石沢 遥斗",
+     "pref": "新潟県",
+     "points": 222.8
+    },
+    {
+     "rank": 5,
+     "status": null,
+     "name": "中山 一颯",
+     "pref": "石川県",
+     "points": 222.65
+    },
+    {
+     "rank": 6,
+     "status": null,
+     "name": "久保 彪",
+     "pref": "鹿児島県",
+     "points": 221.35
+    },
+    {
+     "rank": 7,
+     "status": null,
+     "name": "廣冨 諒",
+     "pref": "島根県",
+     "points": 219.8
+    },
+    {
+     "rank": 8,
+     "status": null,
+     "name": "古戎 徠人",
+     "pref": "広島県",
+     "points": 179.9
+    },
+    {
+     "rank": 9,
+     "status": null,
+     "name": "佐藤 海志",
+     "pref": "長野県",
+     "points": 175.45
+    },
+    {
+     "rank": 10,
+     "status": null,
+     "name": "後藤 大輝",
+     "pref": "京都府",
+     "points": 165.15
+    },
+    {
+     "rank": 11,
+     "status": null,
+     "name": "和田 颯仁",
+     "pref": "和歌山県",
+     "points": 134.0
+    },
+    {
+     "rank": 12,
+     "status": null,
+     "name": "大島 幹央",
+     "pref": "福島県",
+     "points": 103.6
+    },
+    {
+     "rank": null,
+     "status": "棄権",
+     "name": "茶木 琉聖",
+     "pref": "大分県",
+     "points": null
+    },
+    {
+     "rank": null,
+     "status": "棄権",
+     "name": "二階堂 律",
+     "pref": "高知県",
+     "points": null
+    }
+   ]
   }
  },
  "done": [
   1,
   2,
   3,
-  4
+  4,
+  5
  ]
 }
