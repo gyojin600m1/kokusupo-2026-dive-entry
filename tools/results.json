@@ -472,6 +472,130 @@
      "points": null
     }
    ]
+  },
+  "6": {
+   "start": "15:00",
+   "rows": [
+    {
+     "rank": 1,
+     "status": null,
+     "name": "伊熊 扇李",
+     "pref": "兵庫県",
+     "points": 440.85
+    },
+    {
+     "rank": 2,
+     "status": null,
+     "name": "須山 晴貴",
+     "pref": "島根県",
+     "points": 393.45
+    },
+    {
+     "rank": 3,
+     "status": null,
+     "name": "荒木 宥図",
+     "pref": "新潟県",
+     "points": 380.55
+    },
+    {
+     "rank": 4,
+     "status": null,
+     "name": "二羽 倖駕",
+     "pref": "石川県",
+     "points": 365.05
+    },
+    {
+     "rank": 5,
+     "status": null,
+     "name": "伊藤 洸輝",
+     "pref": "滋賀県",
+     "points": 356.9
+    },
+    {
+     "rank": 6,
+     "status": null,
+     "name": "瓶子 礼智",
+     "pref": "高知県",
+     "points": 323.4
+    },
+    {
+     "rank": 7,
+     "status": null,
+     "name": "坂田 麗鳳",
+     "pref": "宮崎県",
+     "points": 318.55
+    },
+    {
+     "rank": 8,
+     "status": null,
+     "name": "西田 玲雄",
+     "pref": "大阪府",
+     "points": 316.05
+    },
+    {
+     "rank": 9,
+     "status": null,
+     "name": "池辺 寛人",
+     "pref": "大分県",
+     "points": 315.7
+    },
+    {
+     "rank": 10,
+     "status": null,
+     "name": "片岡 三亮",
+     "pref": "愛知県",
+     "points": 308.3
+    },
+    {
+     "rank": 11,
+     "status": null,
+     "name": "佐々木 康平",
+     "pref": "宮城県",
+     "points": 307.85
+    },
+    {
+     "rank": 12,
+     "status": null,
+     "name": "金戸 快",
+     "pref": "東京都",
+     "points": 301.65
+    },
+    {
+     "rank": 13,
+     "status": null,
+     "name": "坂田 慈央",
+     "pref": "長野県",
+     "points": 299.3
+    },
+    {
+     "rank": 14,
+     "status": null,
+     "name": "山田 周汰",
+     "pref": "静岡県",
+     "points": 275.3
+    },
+    {
+     "rank": 15,
+     "status": null,
+     "name": "坂田 力毅",
+     "pref": "富山県",
+     "points": 273.25
+    },
+    {
+     "rank": 16,
+     "status": null,
+     "name": "古谷 英成",
+     "pref": "栃木県",
+     "points": 247.55
+    },
+    {
+     "rank": null,
+     "status": "棄権",
+     "name": "坂井 丞",
+     "pref": "神奈川県",
+     "points": null
+    }
+   ]
   }
  },
  "done": [
@@ -479,6 +603,7 @@
   2,
   3,
   4,
-  5
+  5,
+  6
  ]
 }
