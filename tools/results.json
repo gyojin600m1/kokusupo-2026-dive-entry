@@ -596,6 +596,95 @@
      "points": null
     }
    ]
+  },
+  "7": {
+   "start": "10:00",
+   "rows": [
+    {
+     "rank": 1,
+     "status": null,
+     "name": "三上 紗也可",
+     "pref": "鳥取県",
+     "points": 345.8
+    },
+    {
+     "rank": 2,
+     "status": null,
+     "name": "近藤 花菜",
+     "pref": "群馬県",
+     "points": 243.9
+    },
+    {
+     "rank": 3,
+     "status": null,
+     "name": "荒井 祭里",
+     "pref": "佐賀県",
+     "points": 233.05
+    },
+    {
+     "rank": 4,
+     "status": null,
+     "name": "乗松 飛羽",
+     "pref": "愛媛県",
+     "points": 228.2
+    },
+    {
+     "rank": 5,
+     "status": null,
+     "name": "榎本 遼香",
+     "pref": "栃木県",
+     "points": 219.9
+    },
+    {
+     "rank": 6,
+     "status": null,
+     "name": "西沢 明歩",
+     "pref": "福島県",
+     "points": 208.6
+    },
+    {
+     "rank": 7,
+     "status": null,
+     "name": "山崎 佳蓮",
+     "pref": "高知県",
+     "points": 206.0
+    },
+    {
+     "rank": 8,
+     "status": null,
+     "name": "坂田 丹寧",
+     "pref": "茨城県",
+     "points": 204.8
+    },
+    {
+     "rank": 9,
+     "status": null,
+     "name": "森淵 茉莉愛",
+     "pref": "広島県",
+     "points": 197.1
+    },
+    {
+     "rank": 10,
+     "status": null,
+     "name": "山口 歩夏",
+     "pref": "三重県",
+     "points": 177.45
+    },
+    {
+     "rank": 11,
+     "status": null,
+     "name": "跡邊 あずき",
+     "pref": "福岡県",
+     "points": 168.85
+    },
+    {
+     "rank": 12,
+     "status": null,
+     "name": "青山 由唯加",
+     "pref": "静岡県",
+     "points": 154.05
+    }
+   ]
   }
  },
  "done": [
@@ -604,6 +693,7 @@
   3,
   4,
   5,
-  6
+  6,
+  7
  ]
 }
