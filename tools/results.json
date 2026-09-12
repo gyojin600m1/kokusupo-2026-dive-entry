@@ -685,6 +685,116 @@
      "points": 154.05
     }
    ]
+  },
+  "8": {
+   "start": "12:30",
+   "rows": [
+    {
+     "rank": 1,
+     "status": null,
+     "name": "大久保 柊",
+     "pref": "茨城県",
+     "points": 416.75
+    },
+    {
+     "rank": 2,
+     "status": null,
+     "name": "金戸 快",
+     "pref": "東京都",
+     "points": 400.65
+    },
+    {
+     "rank": 3,
+     "status": null,
+     "name": "玉井 陸斗",
+     "pref": "兵庫県",
+     "points": 388.55
+    },
+    {
+     "rank": 4,
+     "status": null,
+     "name": "西田 玲雄",
+     "pref": "大阪府",
+     "points": 377.5
+    },
+    {
+     "rank": 5,
+     "status": null,
+     "name": "池辺 寛人",
+     "pref": "大分県",
+     "points": 344.85
+    },
+    {
+     "rank": 6,
+     "status": null,
+     "name": "坂田 麗鳳",
+     "pref": "宮崎県",
+     "points": 335.55
+    },
+    {
+     "rank": 7,
+     "status": null,
+     "name": "山田 周汰",
+     "pref": "静岡県",
+     "points": 331.1
+    },
+    {
+     "rank": 8,
+     "status": null,
+     "name": "坂田 慈央",
+     "pref": "長野県",
+     "points": 322.6
+    },
+    {
+     "rank": 9,
+     "status": null,
+     "name": "古谷 英成",
+     "pref": "栃木県",
+     "points": 259.35
+    },
+    {
+     "rank": 10,
+     "status": null,
+     "name": "二羽 倖駕",
+     "pref": "石川県",
+     "points": 256.0
+    },
+    {
+     "rank": 11,
+     "status": null,
+     "name": "片岡 三亮",
+     "pref": "愛知県",
+     "points": 254.85
+    },
+    {
+     "rank": 12,
+     "status": null,
+     "name": "坂之上 卓",
+     "pref": "鹿児島県",
+     "points": 244.4
+    },
+    {
+     "rank": 13,
+     "status": null,
+     "name": "坂田 力毅",
+     "pref": "富山県",
+     "points": 236.55
+    },
+    {
+     "rank": 14,
+     "status": null,
+     "name": "松原 旭稀",
+     "pref": "岩手県",
+     "points": 216.85
+    },
+    {
+     "rank": null,
+     "status": "棄権",
+     "name": "瓶子 礼智",
+     "pref": "高知県",
+     "points": null
+    }
+   ]
   }
  },
  "done": [
@@ -694,6 +804,7 @@
   4,
   5,
   6,
-  7
+  7,
+  8
  ]
 }
